@@ -1,2 +1,2 @@
-# home_page
+# Homepage
 2brackets.com homepage 
