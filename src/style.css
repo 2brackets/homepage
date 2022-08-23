@@ -24,3 +24,92 @@ p {
     color: #FFFFFF;
     font-size: 1.5vw;
 }
+
+.mailbtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #1A1A1A;
+    color: white;
+    padding: 0px;
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.mailbtn:hover {
+    color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.mail-content {
+    display: none;
+    position: relative;
+    background-color: #1A1A1A;
+    overflow: auto;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+.sendMailForm {
+    
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.sendMailbtn {
+    background-color: #00D9D9;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 9px 35px;
+    outline: none;
+    max-width: 20em;
+    border-radius: 5px;
+}
+
+.sendMailbtn:hover {
+    background-color: #0CF0AF;
+}
+
+.sendMailbtn:focus {
+    background-color: #00B7F8;
+}
+
+label {
+    font-family: 'Poppins',sans-serif;
+    color: #FFFFFF;
+}
+
+input {
+    border: #1A1A1A;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px 10px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+textarea {
+    border: #1A1A1A;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px 10px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
