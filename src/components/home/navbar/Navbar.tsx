@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
-                <a href="#home" id='navbar-logo'><img src={require("../../images/icon.png")} alt='f' id='navbar-logo-img' />2brackets.com</a>
+                <a href="#home" id='navbar-logo'><img src={require("../../../images/icon.png")} alt='f' id='navbar-logo-img' />2brackets.com</a>
                 <div className='navbar-toggle' id='mobile-menu' onClick={mobileMenu}>
                     <span className='bar'></span>
                     <span className='bar'></span>
