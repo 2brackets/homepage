@@ -2,6 +2,7 @@
   "homepage": "https://2brackets.com",
   "name": "homepage",
   "version": "0.1.0",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
