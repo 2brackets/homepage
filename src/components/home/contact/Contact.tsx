@@ -9,7 +9,7 @@ function sendEmail() {
   const statusMessage = document.querySelector<HTMLLabelElement>('#status-message')
   if(name === null || email === null || message === null) {return}
   if(statusMessage == null) {return}
-  const mail = new Mail(name, email, message, statusMessage)
+  new Mail(name, email, message, statusMessage)
 }
 
 function Contact () {
@@ -23,7 +23,7 @@ function Contact () {
         <input type="email" id="email" name="email" data-testid="input-email"/><br/>
         <label>Message:</label><br/>
         <textarea rows={10} name="message" id="message" data-testid="input-message"></textarea><br/>
-        <label id="status-message">Send</label>
+        <label id="status-message"></label>
       </div>
       <div className="contact-content">
         <h1>Contact</h1>

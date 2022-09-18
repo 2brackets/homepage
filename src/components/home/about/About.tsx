@@ -1,4 +1,5 @@
 import React from 'react'
+import { FiMail } from 'react-icons/fi';
 import './About.css'
 
 function About () {
@@ -9,10 +10,10 @@ function About () {
         <div className="main-img-card"><img src={require("../../../images/icon.png")} alt="l" /></div>
       </div>
       <div className="main-content">
-        <h1>About 2brackets.com</h1>
-        <h2>Ide to real!</h2>
-        <p>We love to code , and we love to play!</p>
-        <button className="main-btn"><a href="#">Schedule Call</a></button>
+        <h1>About</h1>
+        <h2>Just an amateur who likes coding</h2>
+        <p>2bracket.com was started in 2022 in Sweden by a dude who loves to write code in his spare time.</p>
+        <button className="about-btn"><a href="#contact"><FiMail id='icon-fimail'/> Contact</a></button>
       </div>
     </div>
   </div>

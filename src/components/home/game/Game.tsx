@@ -12,7 +12,7 @@ function Game () {
         <h1>What do we do?</h1>
         <h2>We help businesses scale</h2>
         <p>Schedule a call to learn more about our services</p>
-        <button className="game-btn"><a href="#">Schedule Call</a></button>
+        <button className="game-btn"><a href="#home">Schedule Call</a></button>
       </div>
     </div>
   </div>

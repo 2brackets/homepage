@@ -44,14 +44,14 @@ export class Mail {
     private sendMail(): void {
         if(!this.emptyValue()) {
             if(this.emailCorrect()){
-                this.statusMessage.style.color = "#FFFFFF"
+                this.statusMessage.style.color = "#0CF0AF" 
                 this.statusMessage.textContent = "Sent!"
                 this.name.value = ""
                 this.email.value = ""
                 this.message.value = ""
             }
             else {
-                this.statusMessage.style.color = "#0CF0AF" 
+                this.statusMessage.style.color = "#FFFFFF"
                 this.statusMessage.textContent = `Oops! Your email address is incorrect: ${this.elementDict.get('email')}`
             }
         }
