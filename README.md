@@ -1,5 +1,5 @@
 # <img src="/src/images/icon.png?raw=true" width="100" height="100"/>
-[![Pages-Build-Deployment](https://github.com/2brackets/homepage/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/2brackets/homepage/actions/workflows/pages/pages-build-deployment) [![Deploy Homepage CI](https://github.com/2brackets/homepage/actions/workflows/deploy.yml/badge.svg)](https://github.com/2brackets/homepage/actions/workflows/deploy.yml)
+[![Deploy Homepage CI](https://github.com/2brackets/homepage/actions/workflows/deploy.yml/badge.svg)](https://github.com/2brackets/homepage/actions/workflows/deploy.yml)
 
 
 2brackets.com homepage 
