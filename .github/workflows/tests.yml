@@ -8,7 +8,7 @@ on:
     branches: 
     - "*"
     - "!main"
-    - "gh-pages"
+    - "!gh-pages"
   pull_request:
     branches: [ "main" ]
 
