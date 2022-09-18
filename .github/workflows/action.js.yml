@@ -21,6 +21,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: install npm
+      run: npm install --save string
     - name: install yarn
       run: npm install yarn
     - name: React-Tests
