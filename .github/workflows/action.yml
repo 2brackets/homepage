@@ -28,6 +28,13 @@ jobs:
     - name: Run Unit Tests
       run: yarn test
       
-    - name: Deploy HomePage
-      run: gh-pages -d build
+    - name: Build Hompage
+      run: yarn build
+      
+    - name: Install Github Pages
+      run: npm install --save gh-pages
+      
+    - name: Deploy Homepage
+      run: yarn deploy
+      
 
