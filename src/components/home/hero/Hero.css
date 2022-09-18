@@ -1,0 +1,125 @@
+.hero {
+    background-image: url(../../../images/bg-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 200px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero-heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.hero-heading span {
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00B7F8,
+      #00D9D9,
+      #0CF0AF
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00B7F8,
+      #00D9D9,
+      #0CF0AF
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.hero-description {
+    font-size: 60px;
+    background: #00B7F8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00B7F8,
+      #00D9D9,
+      #0CF0AF
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00B7F8,
+      #00D9D9,
+      #0CF0AF
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .highlight {
+    border-bottom: 4px solid #0CF0AF;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-heading {
+      font-size: 60px;
+    }
+  
+    .hero-description {
+      font-size: 40px;
+    }
+}
+
+.hero-btn {
+  font-size: 1.8rem;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #0CF0AF, #00D9D9, #00B7F8);
+  background: linear-gradient(to right, #0CF0AF, #00D9D9, #00B7F8);
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.hero-btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00B7F8;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.hero-btn:hover {
+  color: #fff;
+}
+
+.hero-btn:hover:after {
+  width: 100%;
+}
+
