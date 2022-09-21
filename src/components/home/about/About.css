@@ -60,49 +60,6 @@
   font-weight: 700;
 }
   
-.about-btn {
-  font-size: 1.8rem;
-  font-weight: bold;
-  background: #00B7F8;
-  background: -webkit-linear-gradient(to right, #00B7F8, #00D9D9, #0CF0AF);
-  background: linear-gradient(to right, #00B7F8, #00D9D9, #0CF0AF);
-  padding: 20px 60px;
-  border: none;
-  border-radius: 4px;
-  margin-top: 2rem;
-  cursor: pointer;
-  position: relative;
-  transition: all 0.35s;
-  outline: none;
-}
-  
-.about-btn a {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  text-decoration: none;
-}
-  
-.about-btn:after {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #00B7F8;
-  transition: all 0.35s;
-  border-radius: 4px;
-}
-  
-.about-btn:hover {
-  color: #fff;
-}
-  
-.about-btn:hover:after {
-  width: 100%;
-}
-  
 .main-img-container {
   text-align: center;
 }
