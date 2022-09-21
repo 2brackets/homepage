@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import { text } from 'stream/consumers';
 import About from './About'
 
 const ABOUT: string = 'About'
@@ -11,7 +12,7 @@ it('renders text About shows up', () => {
 
 it('renders that it is one button', () => {
     render(<About/>);
-    const buttonList: HTMLButtonElement[] = screen.getAllByRole('button');
-    expect(buttonList).toHaveLength(1)
+    const textList: HTMLButtonElement[] = screen.getAllByTestId("about-text")
+    expect(textList).toHaveLength(3)
 });
 
