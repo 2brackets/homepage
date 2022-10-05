@@ -116,7 +116,12 @@
     font-size: 1.5rem;
   }
 }
-  
+
+img {
+  width: 120%;
+  height: 120%;
+}
+
 @media screen and (max-width: 480px) {
   .main-img-card {
     width: 250px;

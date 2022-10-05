@@ -30,11 +30,11 @@ function Footer() {
           </div>
           <p className="website-rights">© 2brackets.com 2022. All rights reserved</p>
           <div className="social-icons">
-            <a href='https://github.com/2brackets' className="social-icon-link" target="_blank" rel="noreferrer"><FaGithub role={'icon-github'} id="social-icon" data-testid="fa"/></a>
-            <a href="/" className="social-icon-link"><FaFacebookSquare id="social-icon" data-testid="fa"/></a>
-            <a href="/" className="social-icon-link"><FaYoutube id="social-icon" data-testid="fa"/></a>
-            <a href="/" className="social-icon-link"><FaInstagram id="social-icon" data-testid="fa"/></a>
-            <a href="/" className="social-icon-link"><FaPatreon id="social-icon" data-testid="fa"/></a>
+            <a href='https://github.com/2brackets' className="social-icon-link" target="_blank" rel="noreferrer" data-testid="fa"><FaGithub role={'icon-github'} id="social-icon"/></a>
+            <a href="/" className="social-icon-link" data-testid="fa"><FaFacebookSquare id="social-icon" /></a>
+            <a href="/" className="social-icon-link" data-testid="fa"><FaYoutube id="social-icon"/></a>
+            <a href="/" className="social-icon-link" data-testid="fa"><FaInstagram id="social-icon"/></a>
+            <a href="/" className="social-icon-link" data-testid="fa"><FaPatreon id="social-icon" /></a>
           </div>
         </div>
       </section>
