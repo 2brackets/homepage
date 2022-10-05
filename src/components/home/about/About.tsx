@@ -6,7 +6,7 @@ function About () {
     <div className="main" id="about">
     <div className="main-container">
       <div className="main-img-container">
-        <div className="main-img-card"><img src={require("../../../images/icon.png")} alt="l" /></div>
+        <img id="lighthouse-img" src={require("../../../images/lighthouse.png")} alt="l" />
       </div>
       <div className="main-content">
         <h1 data-testid="about-text">About</h1>

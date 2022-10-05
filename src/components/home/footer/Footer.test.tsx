@@ -25,6 +25,3 @@ it('renders textlink to Github', () => {
     expect(screen.getByText('Github')).toHaveAttribute('href', 'https://github.com/2brackets')
 });
 
-
-
-
